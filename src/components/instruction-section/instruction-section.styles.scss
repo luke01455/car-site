@@ -1,0 +1,44 @@
+.instruction-container {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .instruction-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 90%;
+        padding: 35px;
+
+        .instruction {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+
+            .instruction-img-container {
+                width: 400px;
+                height: 300px;
+                display: grid;
+                place-items: center;
+                .instruction-img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+            .instruction-text-container {
+                margin-top: 25px;
+                width: 400px;
+                color: #707070;
+                text-align: center;
+                
+
+                h2 {
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

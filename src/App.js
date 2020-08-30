@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 import HomePage from '../src/pages/homepage/homepage.component'
 
-import './App.css';
+import './App.scss';
 
 
 

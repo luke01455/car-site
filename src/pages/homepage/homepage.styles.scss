@@ -6,8 +6,16 @@
         width: 75%;
         margin: 0 auto;
         margin-top: 300px;
-        font-size: 1.5em;
         color: #707070;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 275px;
+
+        h1 {
+            font-size: 2.8em;
+        }
     }
     .contact-page-circle-1 {
         z-index: -1;

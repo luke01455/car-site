@@ -1,0 +1,24 @@
+.cta-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #707070;
+    width: 175px;
+    height: 47px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    border: 1px solid #707070;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.cta-button:hover {
+    color: white;
+    background-color: #676365;
+}
+
+.wider {
+    width: 285px;
+}
