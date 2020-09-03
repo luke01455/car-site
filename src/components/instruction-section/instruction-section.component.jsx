@@ -7,11 +7,12 @@ import './instruction-section.styles.scss';
 import callingImg from '../../assetts/instruction-imgs/undraw_calling_kpbp.svg'
 import carImg from '../../assetts/instruction-imgs/undraw_fast_car_p4cu.svg'
 import financeImg from '../../assetts/instruction-imgs/undraw_personal_finance_tqcd.svg'
+import halfsq from '../../assetts/squares/halfsq.png'
 
 const InstructionSection = () => {
     return (
         <div className='instruction-container'>
- <div className='contact-page-circle-2'></div>
+<img className='halfsq-img-container' src={halfsq} />
             
             <div className='instruction-wrapper'>
                 <div className='instruction'>
