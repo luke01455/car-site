@@ -11,6 +11,8 @@ import financeImg from '../../assetts/instruction-imgs/undraw_personal_finance_t
 const InstructionSection = () => {
     return (
         <div className='instruction-container'>
+ <div className='contact-page-circle-2'></div>
+            
             <div className='instruction-wrapper'>
                 <div className='instruction'>
                     <div className='instruction-img-container'>
@@ -38,7 +40,7 @@ const InstructionSection = () => {
                 </div>
             </div>
             <CTAButton content={'Start Now'} />
-
+            
         </div>
     )
 

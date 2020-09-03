@@ -1,8 +1,10 @@
 .App {
   font-family: 'Roboto', sans-serif;
+  max-width: 100%;
+  overflow: hidden;
 }
 
-  // * { 
-  //  outline: 1px solid red;
-  //    outline-offset: -1px;
-  //  }  
+  * { 
+   outline: 1px solid red;
+     outline-offset: -1px;
+   }  
