@@ -1,26 +1,32 @@
 .homepage-container {
-    height: 2000px;  
+    height: auto;  
     max-width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    overflow-x:hidden;
-    .title-container {
-        text-align: center;
-        width: 75%;
-        margin: 0 auto;
-        margin-top: 300px;
-        color: #707070;
+    
+    .title-wrapper {
+        width: 100%;
+        height: 100vh;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        height: 275px;
-        
+        justify-content: center;
 
-        h1 {
-            font-size: 2.8em;
+        .title-container {
+            text-align: center;
+            width: 75%;
+            margin: 0 auto;
+            color: #707070;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 275px;
+            
+    
+            h1 {
+                font-size: 2.8em;
+            }
         }
     }
+
 
     .contact-page-circle-1 {
         z-index: -1;
@@ -31,6 +37,22 @@
         height: 800px;
         background: #E3EFF9;
         transform: rotate(21deg);
+    
+        @media (max-width: 630px) {
+            display: none;
+          }
+          
+    }
+
+    .contact-page-circle-2 {
+        z-index: -1;
+        position: absolute;
+        bottom: -1700px;
+        left: -100px;
+        width: 1200px;
+        height: 800px;
+        background: #E3EFF9;
+        transform: rotate(342deg);
     
         @media (max-width: 630px) {
             display: none;

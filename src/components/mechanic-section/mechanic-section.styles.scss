@@ -1,0 +1,30 @@
+.mechanic-section-container {
+    margin-top: 350px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .mechanic-info-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .mechanic-picture-container {
+            width: 300px;
+            height: 300px;
+
+            .mechanic-img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+
+        .mechanic-text-container {
+            padding-left: 45px;
+            //text-align: center;
+            color: #707070;
+        }
+    }
+}

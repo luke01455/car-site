@@ -1,5 +1,5 @@
 .instruction-container {
-    height: 1200px;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@
         .halfsq-img-container {
             float: left;
             z-index: -1;
-            bottom: -1600px;
+            bottom: -1300px;
             right: 0px;
             position: absolute;
         
@@ -28,16 +28,18 @@
         justify-content: space-around;
         width: 90%;
         padding: 35px;
+        margin-bottom: 75px;
 
         .instruction {
+            width: 27%;
             display: flex;
             justify-content: space-around;
             align-items: center;
             flex-direction: column;
 
             .instruction-img-container {
-                width: 400px;
-                height: 300px;
+                width: 200px;
+                height: 200px;
                 display: grid;
                 place-items: center;
                 .instruction-img {
@@ -47,13 +49,15 @@
             }
             .instruction-text-container {
                 margin-top: 25px;
-                width: 400px;
+                width: 100%;;
                 color: #707070;
                 text-align: center;
                 
+                
 
                 h2 {
-                    font-weight: 300;
+                    font-weight: 700;
+                    font-size: 1.7em;
                 }
             }
         }
