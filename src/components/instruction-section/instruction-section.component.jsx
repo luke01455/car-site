@@ -1,6 +1,7 @@
 import React from 'react';
 
-import CTAButton from '../cta-button/cta-button.component'
+import LoginButton from '../login-button/login-button.component'
+import LogoutButton from '../logout-button/logout-button.component'
 
 import './instruction-section.styles.scss';
 
@@ -40,7 +41,8 @@ const InstructionSection = () => {
                     </div>
                 </div>
             </div>
-            <CTAButton content={'Start Now'} />
+            <LoginButton />
+            <LogoutButton />
             
         </div>
     )

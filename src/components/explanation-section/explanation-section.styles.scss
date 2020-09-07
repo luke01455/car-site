@@ -5,18 +5,52 @@
     align-items: center;
 
     .explanation-wrapper {
-        width: 55%;
+        width: 85%;
         height: auto;
         color: #707070;
 
         h1 {
             font-size: 2.6em;
             text-align: center;
-            margin-bottom: 75px;
+            margin-bottom: px;
         }
 
-        h4 {
-            font-size: 1.3em;
+
+        .explanation-half {
+            padding: 75px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .explanation-image-container {
+                height: 250px;
+                width: 250px;
+
+                .explanation-img {
+                    max-height: 100%;
+                    max-width: 100%;
+                }
+            }
+            .explanation-text-container {
+                h3 {
+                    color: #575A89;
+                    letter-spacing: 1.1px;
+                    font-size: 1.7em;
+                    margin-bottom: 35px;
+                }
+                h4 {
+                    letter-spacing: 1.1px;
+                    font-size: 1.1em;
+                    line-height: 1.6em;
+                }
+            }
+        }
+        .explanation-cta-button {
+            width: 100%;
+           display: flex;
+           align-content: center;
+           justify-content: center;
         }
     }
+
 }

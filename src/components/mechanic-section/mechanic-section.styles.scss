@@ -1,19 +1,25 @@
 .mechanic-section-container {
-    margin-top: 350px;
+    margin-top: 250px;
     height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
+    h1 {
+        color: #707070;
+    }
 
     .mechanic-info-container {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-bottom: 45px;
 
         .mechanic-picture-container {
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
 
             .mechanic-img {
                 max-width: 100%;
@@ -22,9 +28,12 @@
         }
 
         .mechanic-text-container {
-            padding-left: 45px;
+            padding-left: 85px;
             //text-align: center;
             color: #707070;
+            line-height: 2.5em;
+            font-size: 0.9em;
+            letter-spacing: 1.2px;
         }
     }
 }
