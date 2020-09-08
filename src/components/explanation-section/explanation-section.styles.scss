@@ -9,6 +9,9 @@
         height: auto;
         color: #707070;
 
+
+
+
         h1 {
             font-size: 2.6em;
             text-align: center;
@@ -22,6 +25,12 @@
             justify-content: space-around;
             align-items: center;
 
+            @media (max-width: 950px) { 
+                flex-direction: column;
+              }
+
+
+
             .explanation-image-container {
                 height: 250px;
                 width: 250px;
@@ -32,6 +41,8 @@
                 }
             }
             .explanation-text-container {
+                width: 65%;
+                padding: 25px;
                 h3 {
                     color: #575A89;
                     letter-spacing: 1.1px;
@@ -45,6 +56,13 @@
                 }
             }
         }
+
+        .half-reverse {
+            @media (max-width: 950px) { 
+                flex-direction: column-reverse !important;
+              }
+          }
+          
         .explanation-cta-button {
             width: 100%;
            display: flex;
@@ -54,3 +72,5 @@
     }
 
 }
+
+

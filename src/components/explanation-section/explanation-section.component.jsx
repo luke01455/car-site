@@ -23,7 +23,7 @@ const ExplanationSection = () => {
                         <img className='explanation-img' src={explanationImgPhone} />
                     </div>
                 </div>
-                <div className='explanation-half'>
+                <div className='explanation-half half-reverse'>
                     <div className='explanation-image-container'>
                         <img className='explanation-img' src={explanationImgCar} />
                     </div>
